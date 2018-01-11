@@ -15,14 +15,8 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  // return document.querySelector('#grand-node div div div div');
-  const allDivs = document.querySelectorAll('#grand-node div')
-  // return allDivs
-  for (key in allDivs) {
-    if (allDivs[key] === 'boo!') {
-      return allDivs[key];
-    }
-  }
+  return document.querySelector('#grand-node div div div div');
+
 
 }
 
